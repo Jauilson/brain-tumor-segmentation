@@ -1,6 +1,6 @@
 ﻿Identificação: Jauilson Crisostomo da Silva
-ORIENTADOR(A): Prof. Dr. Jugurta Rosa Montalvão Filho
-Departamento de Engenharia Elétrica
+ORIENTADOR(A): Prof. Dr. Daniel Oliveira Dantas
+Departamento de Ciências da Computação
 
 
 1 – Qual o seu tema de pesquisa dentro da linha escolhida? Máximo de 15 palavras. Resposta:
@@ -43,3 +43,6 @@ International Conference on Computer Vision (ICCV) (Qualis: A1)
 http://dx.doi.org/ 10.31744/einstein_journal/2020AO4948. Acesso em: 20 maio 2023.
 3. Zhou, S. K., Greenspan, H., & Shen, D. (Eds.). (2017). Deep Learning for Medical Image Analysis (The MICCAI Society book Series) (1ª edição).
 4. Tyagi, A. K. (Ed.). (2021). Computational Analysis and Deep Learning for Medical Care: Principles, Methods, and Applications
+
+
+Posteriormente, aprofundei conhecimentos participando como aluno ouvinte das disciplinas de Reconhecimento de Padrões com Prof. Dr. Jugurta Rosa Montalvão Filho no Departamento de Engenharia Elétrica.
