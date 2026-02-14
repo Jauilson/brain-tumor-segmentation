@@ -1,0 +1,45 @@
+﻿Identificação: Jauilson Crisostomo da Silva
+ORIENTADOR(A): Prof. Dr. Jugurta Rosa Montalvão Filho
+Departamento de Engenharia Elétrica
+
+
+1 – Qual o seu tema de pesquisa dentro da linha escolhida? Máximo de 15 palavras. Resposta:
+Segmentação de tumores em imagens de ressonância magnética cerebral
+
+
+ 2- Qual o problema que você quer tratar? Por que ele é relevante? Fundamente sua resposta baseado na literatura da área. Máximo de 200 palavras.
+Resposta:
+O problema a ser disposto é a segmentação precisa de tumores em imagens de ressonância magnética cerebral. Este trabalho é fundamental para o diagnóstico e acompanhamento de pacientes com câncer cerebral. Então a segmentação precisa dos tumores pode quantificar sua forma, tamanho e localização, fornecendo informações valiosas para o planejamento de tratamentos personalizados. A literatura nesta área destaca a importância da segmentação precisa para melhorar a eficácia do tratamento, ajudar a avaliar a resposta ao tratamento e monitorar a progressão do tumor ao longo do tempo. Além disso, a segmentação manual por especialistas é um processo demorado e sujeito à variabilidade interobservador, sendo necessário automatizar o processo por meio de técnicas de visão computacional e aprendizado de máquina.
+
+
+3- Cite duas referências científicas relevantes que tratam do problema. Quais as limitações de cada uma delas? Máximo de 300 palavras.
+Resposta
+Referência 1: “Estudo de Tendências em Neurotecnologia do BRAINN” (Brazilian Institute of Neuroscience and Neurotechnology, 2021). O objetivo principal é desenvolver e validar um conjunto de ferramentas computacionais para a segmentação automática de tumores cerebrais em imagens de ressonância magnética. Nesse sentido, serão explorados métodos de inteligência artificial, aprendizado profundo e análise computacional para aprimorar a precisão e eficiência desse processo. A pesquisa abordará desafios comuns encontrados no processamento de imagens médicas, como ruídos, baixa qualidade de imagem e variações na intensidade de pixel. Serão investigadas técnicas de pré-processamento, normalização de intensidade, correção de contraste e remoção de artefatos, com o intuito de aprimorar a qualidade das imagens e otimizar a segmentação dos tumores.
+
+
+Referência 2: “Segmentação automática de tumores cerebrais em imagens de ressonância magnética“ (Mascarenhas LR, Ribeiro Júnior AS, Ramos RP., 2019). Neste estudo, o objetivo deste estudo é desenvolver e validar um conjunto de ferramentas computacionais que possam realizar a segmentação automática de tumores cerebrais em imagens de ressonância magnética.
+
+
+ 4- Como você pretende resolver o problema? Indique hipóteses, referencial teórico, métricas, modelos, bases de dados, métodos, abordagens, ou outros meios. Máximo de 400 palavras.
+Resposta:
+Pretendo resolver o problema de segmentação de tumores cerebrais em imagens de ressonância magnética com uma abordagem baseada em redes neurais convolucionais e técnicas de processamento de imagens. Supõe-se que a combinação de redes neurais profundas com técnicas avançadas de pré-processamento, como normalização, filtragem e suavização de histograma, pode melhorar a precisão e a capacidade de generalização do modelo de segmentação. A estrutura teórica inclui pesquisas relevantes sobre visão computacional, aprendizado de máquina e segmentação de imagens médicas. Métricas de avaliação, como taxa de matriz e sensibilidade, são usadas para medir a precisão e o desempenho do modelo. Bancos de dados públicos como BRATS (The Multimodal Brain Tumor Segmentation Challenge) são usados ​​para treinar, validar e testar os modelos. A abordagem proposta envolve o treinamento de uma rede neural convolucional como U-Net ou FCN (Fully Convolutional Network) usando técnicas de aumento de dados para aumentar a quantidade de dados de treinamento e reduzir o overfitting. Além disso, técnicas de pós-processamento, como erosão e dilatação morfológica, são usadas para refinar as segmentações resultantes.
+
+
+5- Cite dois periódicos científicos e cite duas conferências onde resultados do seu trabalho poderiam ser publicados. Indique qual o Qualis em Computação para cada veículo citado. Máximo de 200 palavras.
+Resposta:
+Periódicos:
+IEEE Transactions on Medical Imaging (Qualis: A1)
+Medical Image Analysis (Qualis: A1)
+Conferências:
+International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI) (Qualis: A1)
+International Conference on Computer Vision (ICCV) (Qualis: A1)
+
+
+6- Referências bibliográficas
+
+
+1. BRAINN (Brazilian Institute of Neuroscience and Neurotechnology). (2021). Acesse o novo Estudo de Tendências em Neurotecnologia do BRAINN. Disponível em: https://www.brainn.org.br/acesse-o-novo-estudo-de-tendencias-em-neurotecnologia-do-brainn/. Acesso em: 20 maio 2023.
+2. Mascarenhas LR, Ribeiro Júnior AS, Ramos RP. Segmentação automática de tumores cerebrais em imagens de ressonância magnética. einstein (São Paulo). 2020;18:eAO4948. Disponível em:
+http://dx.doi.org/ 10.31744/einstein_journal/2020AO4948. Acesso em: 20 maio 2023.
+3. Zhou, S. K., Greenspan, H., & Shen, D. (Eds.). (2017). Deep Learning for Medical Image Analysis (The MICCAI Society book Series) (1ª edição).
+4. Tyagi, A. K. (Ed.). (2021). Computational Analysis and Deep Learning for Medical Care: Principles, Methods, and Applications
