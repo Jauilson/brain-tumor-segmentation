@@ -1,20 +1,22 @@
 # Brain Tumor Segmentation - .gitignore
 
-# Dataset (too large for GitHub)
+# ── Dataset (too large for GitHub) ────────────────────────────────────────
 data/
 dataset/
+databrain/
 *.nii
 *.nii.gz
-databrain/
 
-# Model checkpoints
+# ── Model checkpoints & saved models ──────────────────────────────────────
 *.h5
 *.hdf5
 *.keras
 best_*.h5
 checkpoints/
+saved_models/
 
-# Results and outputs
+# ── Results and outputs ────────────────────────────────────────────────────
+# Remove the block below if you want to commit result images to GitHub
 results/
 outputs/
 *.png
@@ -22,7 +24,10 @@ outputs/
 *.jpeg
 *.pdf
 
-# Python
+# ── Sensitive/private project files ───────────────────────────────────────
+uteis/
+
+# ── Python ─────────────────────────────────────────────────────────────────
 __pycache__/
 *.py[cod]
 *$py.class
@@ -45,64 +50,51 @@ wheels/
 *.egg
 MANIFEST
 
-# Virtual environments
+# ── Virtual environments ───────────────────────────────────────────────────
 venv/
 env/
 ENV/
 env.bak/
 venv.bak/
 
-# Jupyter Notebook
+# ── Jupyter Notebook ──────────────────────────────────────────────────────
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
 
-# IPython
+# ── IPython ────────────────────────────────────────────────────────────────
 profile_default/
 ipython_config.py
 
-# PyCharm
+# ── IDEs ───────────────────────────────────────────────────────────────────
 .idea/
-
-# VSCode
 .vscode/
-
-# Spyder
 .spyderproject
 .spyproject
-
-# Rope
 .ropeproject
 
-# macOS
+# ── OS ─────────────────────────────────────────────────────────────────────
 .DS_Store
 .AppleDouble
 .LSOverride
-
-# Windows
 Thumbs.db
 ehthumbs.db
 Desktop.ini
-
-# Linux
 *~
 
-# Logs
+# ── Logs & TensorBoard ─────────────────────────────────────────────────────
 *.log
 logs/
-
-# TensorBoard
 events.out.tfevents.*
+runs/
 
-# Temporary files
+# ── Temporary files ────────────────────────────────────────────────────────
 *.tmp
 *.bak
 *.swp
 *.swo
 
-# Google Drive
+# ── Google Drive / Colab ───────────────────────────────────────────────────
 .gdrive/
 gdrive/
-
-# Colab
+drive/
 *_colab.ipynb
-uteis/
